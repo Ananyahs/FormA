@@ -16,6 +16,7 @@
     width: 24vw;
     background-color: white;
     padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .username{
@@ -49,5 +50,11 @@
 
 input:focus{
     outline: none;
+}
+
+.container>div{
+    color: rgb(209, 206, 206);
+    margin: 20px 0;
+    font-size: 13px;
 }
 
